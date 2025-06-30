@@ -59,6 +59,7 @@ input.form-control {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+/*Toggle*/
 #themeToggle {
   font-size: 1.2rem;
   transition: all 0.3s ease;
@@ -97,9 +98,9 @@ input.form-control {
   display: block;
   width: 100%;
   padding: 10px 15px;
-  background: transparent;             /* No background */
-  border: 2px solid #bdd4f7;           /* Bootstrap blue border */
-  color:black;                      /* Text matches border */
+  background: transparent;             
+  border: 2px solid #bdd4f7;          
+  color:black;                      
   border-radius: 8px;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -109,5 +110,5 @@ input.form-control {
 .category-btn:hover,.nav-btn:hover {
   background: linear-gradient(90deg, #00dbde, #fc00ff);
   color: white;
-  border-color: transparent;          /* Hide border on hover */
+  border-color: transparent;          
 }
